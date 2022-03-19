@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
 public class Employee {
     private String job;
     private double salary;
@@ -69,5 +70,6 @@ public class Employee {
 
         Map<String, Double> employeeAverageSalary = Employee.getJobAndItsAverageSalary(employees);
         System.out.println(employeeAverageSalary);
+
     }
 }
